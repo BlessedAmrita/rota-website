@@ -18,12 +18,11 @@ function HeroSlider() {
       <div className="flex justify-center items-center px-10 md:px-32 xl:px-50 py-10 bg-white">
         <div className="max-w-[1050px] w-full h-[540px]">
           <Swiper
-            modules={[Navigation, Pagination, Scrollbar]}
+            modules={[Navigation, Pagination]}
             spaceBetween={30}
             slidesPerView={1}
             navigation
             pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
             autoplay={{ delay: 5000 }}
             loop={true}
           >
